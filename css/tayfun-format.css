@@ -1,0 +1,50 @@
+/* 
+Tayfun Duran tayfunduran@gmail.com taybo@taybo.net 
+Taybo 	Temmuz 2010
+*/
+
+.fs8{font-size:8px !important;}
+.fs9{font-size:9px !important;}
+.fs10{font-size:10px !important;}
+.fs11{font-size:11px !important;}
+.fs12{font-size:12px !important;}
+.fs13{font-size:13px !important;}
+.fs14{font-size:14px !important;}
+.fs15{font-size:15px !important;}
+.fs16{font-size:16px !important;}
+.fs18{font-size:18px !important;}
+.fs20{font-size:20px !important;}
+.fs24{font-size:24px !important;}
+
+.normal{font-weight:normal !important;}
+.bold{font-weight:bold !important;}
+.italic{font-style:italic !important;}
+.underline{text-decoration:underline !important;}
+
+.white{color:#fff !important;}
+.black{color:#000 !important;}
+.red{color:#c00 !important;}
+.green{color: #060 !important;}
+.blue{color:#039 !important;}
+.grey9{color:#999 !important;}
+.grey6{color:#666 !important;}
+.grey3{color:#333 !important;}
+
+.align-left{text-align:left !important;}
+.align-right{text-align:right !important;}
+.align-center{text-align:center !important;}
+.align-justify{text-align:justify !important;}
+
+.float-left{float:left !important;}
+.float-right{float:right !important;}
+
+.times{ font-family: "Times New Roman", Times, serif !important;}
+.arial{ font-family: Arial, Helvetica, sans-serif !important;}
+
+.clear{ clear: both !important;}
+.block{ display: block !important;}
+.inline{ display: inline !important;}
+
+.pointer{ cursor: pointer; }
+.nowrap{ white-space: nowrap; }
+

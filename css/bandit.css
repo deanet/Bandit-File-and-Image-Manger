@@ -1,0 +1,207 @@
+/* 
+Tayfun Duran	tayfunduran@gmail.com 
+*/
+
+::selection { background:#c00; color:#fff; }
+::-moz-selection { background:#c00; color:#fff; }
+
+body{ font: normal 12px/16px Andika, Arial, Helvetica, sans-serif; color : #333; background: #fff; }
+h1{
+	font: bold 14px/16px Andika, Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 0 0 10px;
+	border-bottom: 2px solid #222;
+}
+h2{
+	font: bold 13px/16px Andika, Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 0 0 5px;
+	border-bottom: 1px solid #aa9;
+}
+p{ margin: 10px 0; }
+a:link, a:visited, a:active, a:hover { color : #333; text-decoration : none; }
+
+div#kapsul{ padding: 0 5px; }
+div#bilgikutusu{ 
+	display: none;
+	position: absolute;
+	top: 5px;
+	left: 210px;
+	background: #ffc;
+	color: #000;
+	font-weight: bold;
+	padding: 5px;
+	z-index: 5000;
+	border: 1px solid #665;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 0 3px #000;
+}
+div#ust{ background: #ddc url(../resimler/yazi.png) no-repeat top center;
+	padding: 5px; margin-bottom: 10px; border: 1px solid #fff; border-top: none;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-box-shadow: 0 0 3px  #999;
+	-moz-box-shadow: 0 0 3px #999;
+	box-shadow: 0 0 3px #999;
+}
+span#dugmeler img{ margin: 0 2px; }
+span#klasorbilgi { font-size: 10px; font-style: italic; line-height: 10px; float: right; color: #666; }
+div#sag{ float:left; width:100%; }
+div#sagic{ margin-left:210px; overflow: auto; }
+div#sol{ float:left; width:200px; margin-left:-100%; background: #ddc; border: 1px solid #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-box-shadow: 0 0 3px  #999;
+	-moz-box-shadow: 0 0 3px #999;
+	box-shadow: 0 0 3px #999;
+}
+div#solic{ padding: 3px; }
+div#alt{ clear:left; width:100%; padding-top: 8px; text-align: center; font-size: 10px; }
+div#altic{ background: #ddc; border: 1px solid #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 0 3px #999;
+}
+
+div#onizle{ width: 192px; overflow: hidden; font-size: 10px; font-weight: bold; }
+
+div#islemmenu{ position:absolute; display: none; width:100px; background: #ddc; border: 1px solid #fff; overflow: hidden;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-box-shadow: 0 0 3px  #999;
+	-moz-box-shadow: 0 0 3px #999;
+	box-shadow: 0 0 3px #999;
+}
+div#islemmenu ul{ margin: 5px; }
+div#islemmenu ul li{ cursor: pointer; }
+div#islemmenu ul li a{ display: block; }
+div#islemmenu ul img{ width: 12px; height: 12px; border: none; margin: 1px; }
+
+div#yk{ position: absolute; display: none; background: #ddc; border: 1px solid #fff; padding: 5px; margin: 5px 0 0 -70px; z-index: 100;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-box-shadow: 0 0 3px  #999;
+	-moz-box-shadow: 0 0 3px #999;
+	box-shadow: 0 0 3px #999;
+}
+
+div#ren{ position: absolute; display: none; background: #ddc; border: 1px solid #fff; padding: 5px; z-index: 100;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-box-shadow: 0 0 3px  #999;
+	-moz-box-shadow: 0 0 3px #999;
+	box-shadow: 0 0 3px #999;
+}
+
+.f1{ 
+	font: normal 12px/10px Andika, Arial, Helvetica, sans-serif;
+	color : #333;
+	border: 1px #bba solid;
+	background-color: transparent;
+	text-decoration: none;
+	padding: 0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.f2{
+	font: bold 12px/10px Andika, Arial, Helvetica, sans-serif;
+	background: #fff url(../resimler/dugme_arka.png) repeat-x center bottom;
+	border: 1px solid #bba;
+	color: #443;
+	text-decoration:none;
+	padding: 0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.klasorsec{ 
+	font: normal 12px/10px Andika, Arial, Helvetica, sans-serif;
+	color : #c00;
+	background-color: transparent;
+	text-decoration: none;
+	padding: 0;
+	text-align: right !important;
+	width: 140px;
+	float: right;
+}
+.klasorsec option{ text-align: right !important; }
+
+.ayrac{ background: #eed; border-right: 1px solid #bba; margin: 0 5px; }
+.hov{ background: #eed; }
+.bekle{ min-height: 16px; min-width: 16px; background: url(../resimler/bekle.gif) no-repeat; }
+#bandit{ z-index: 3; position: relative; }
+.islempanel{ font-size: 11px; position: absolute; display: none; width: 450px; height: 30px; background: #fff; }
+.islempanel .f1{ font-size: 11px; padding: 1px; }
+.isaretle{ border: dashed 2px #444; border-width: 0 2px 2px 0; }
+
+ul#dosyalistesi{ font-size: 11px; line-height: 14px; padding: 1px; }
+div#noview{ display: none; font-size: 14px; font-weight: bold; }
+#tutform, #zipform{ display: none; }
+
+ul.det{ border: 1px solid #eed; }
+ul.det li{ position: relative; display: block; border-bottom: 1px solid #eed; margin: 0; padding: 1px 0; clear: both; white-space: nowrap; overflow: hidden; }
+ul.det li span{ float: right; padding: 0 3px; }
+ul.det li span.isim, ul.det li span.altklasor{ float: left; min-width: 120px; max-width: 800px; white-space: nowrap; overflow: hidden; }
+ul.det li span.tip{ width: 40px; }
+ul.det li span.boyut{ width: 60px; text-align: right; }
+ul.det li span.zaman{ width: 100px; text-align: right; }
+ul.det li img.resim{ display: none; }
+ul.det li span.olcu{ width: 60px; text-align: center; }
+ul.det li input.isaret{ float: left; }
+ul.det li img.islem, ul.det li img.ren{ float: left; width: 14px; height: 14px; padding: 0 1px 0 3px; border: none; }
+ul.det li.sayfala{ display: none; }
+
+ul.lis li{ position: relative; float: left; margin: 0 5px 0 0; padding: 1px 0; white-space: nowrap; overflow: hidden; width: 160px; }
+ul.lis li span.tip{ display: none; }
+ul.lis li span.boyut{ display: none; }
+ul.lis li span.zaman{ display: none; }
+ul.lis li img.resim{ display: none; }
+ul.lis li span.olcu{ display: none; }
+ul.lis li input.isaret{ float: left; }
+ul.lis li img.islem, ul.lis li img.ren{ float: left; width: 14px; height: 14px; padding: 0 1px 0 3px; border: none; }
+ul.lis li.sayfala{ display: none; }
+
+ul.pul{ font-size: 10px !important; }
+ul.pul li{ position: relative; float: left; width: 92px; height: 140px; margin: 5px; padding: 0; text-align: center; white-space: nowrap; overflow: hidden;
+	border: 1px solid #eed;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-box-shadow: 0 0 2px  #997;
+	-moz-box-shadow: 0 0 2px #997;
+	box-shadow: 0 0 2px #997;
+}
+ul.pul li span.isim, ul.pul li span.altklasor{ display: block; clear: both; white-space: nowrap; overflow: hidden; text-align: left; }
+ul.pul li span.tip{ position: absolute; font-size: 18px; color: #998; top: 74px; right: 2px; font-weight: normal; opacity: 0.4; }
+ul.pul li span.boyut{ float: left; margin-left: 1px; }
+ul.pul li span.zaman{ display: none; }
+ul.pul li img.resim{ width: 90px; height: 90px; border: 0; margin: 1px 1px 4px; border-bottom: 1px solid #eed; background: url(../resimler/page.png) no-repeat center center; }
+ul.pul li img.yukle{ background-image: url(../resimler/bekle.gif) !important; }
+ul.pul li span.olcu{ float: right; margin-right: 1px; }
+ul.pul li input.isaret{ float: left; }
+ul.pul li img.islem, ul.pul li img.ren{ float: right; width: 14px; height: 14px; padding: 0 1px 0 3px; border: none; }
+ul.pul li.sayfala{ font-weight: bold; cursor: pointer;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-box-shadow: 0 0 2px  #fff;
+	-moz-box-shadow: 0 0 2px #fff;
+	box-shadow: 0 0 2px #fff;
+}
+
+ul .altklasor{ cursor: pointer; }
+
